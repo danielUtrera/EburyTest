@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ADDRESS_FIELD</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ADDRESS_FIELD</shortDescription>
+        <value>Address field</value>
+    </labels>
+    <labels>
+        <fullName>ADDRESS_FIELD_PLACEHOLDER</fullName>
+        <categories>Filter;Map</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ADDRESS_FIELD_PLACEHOLDER</shortDescription>
+        <value>Select the address to filter</value>
+    </labels>
+    <labels>
+        <fullName>AVAILABLE_OPTIONS</fullName>
+        <categories>Filter,Map</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AVAILABLE_OPTIONS</shortDescription>
+        <value>Available options</value>
+    </labels>
+    <labels>
+        <fullName>BOOKED_TRADES</fullName>
+        <categories>Trade</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BOOKED_TRADES</shortDescription>
+        <value>Booked trades</value>
+    </labels>
+    <labels>
+        <fullName>BUY_AMOUNT</fullName>
+        <categories>Trade</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BUY_AMOUNT</shortDescription>
+        <value>Buy amount</value>
+    </labels>
+    <labels>
+        <fullName>BUY_CCY</fullName>
+        <categories>Trade</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BUY_CCY</shortDescription>
+        <value>Buy CCY</value>
+    </labels>
+    <labels>
+        <fullName>BUY_CURRENCY</fullName>
+        <categories>Trade</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BUY_CURRENCY</shortDescription>
+        <value>Buy currency</value>
+    </labels>
+    <labels>
+        <fullName>CANCEL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CANCEL</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>CURRENT_FILTERS</fullName>
+        <categories>Filter,Map</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CURRENT_FILTERS</shortDescription>
+        <value>Current filters</value>
+    </labels>
+    <labels>
+        <fullName>DATE_BOOKED</fullName>
+        <categories>Trade</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DATE_BOOKED</shortDescription>
+        <value>Date booked</value>
+    </labels>
+    <labels>
+        <fullName>DISTANCE</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DISTANCE</shortDescription>
+        <value>Distance in KM</value>
+    </labels>
+    <labels>
+        <fullName>FILTER</fullName>
+        <categories>Filter,Map</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FILTER</shortDescription>
+        <value>Filter</value>
+    </labels>
+    <labels>
+        <fullName>FILTER_PLACEHOLDER</fullName>
+        <categories>Filter,Map</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FILTER_PLACEHOLDER</shortDescription>
+        <value>Select the field to filter</value>
+    </labels>
+    <labels>
+        <fullName>GENERIC_ERROR</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>GENERIC_ERROR</shortDescription>
+        <value>Try again later and contact your admin if the error persists</value>
+    </labels>
+    <labels>
+        <fullName>MAX_VALUE</fullName>
+        <categories>Filter;Map</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MAX_VALUE</shortDescription>
+        <value>Maximum</value>
+    </labels>
+    <labels>
+        <fullName>MIN_VALUE</fullName>
+        <categories>Filter;Map</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MIN_VALUE</shortDescription>
+        <value>Minimum</value>
+    </labels>
+    <labels>
+        <fullName>NEW_TRADE</fullName>
+        <categories>Trade</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NEW_TRADE</shortDescription>
+        <value>New trade</value>
+    </labels>
+    <labels>
+        <fullName>NEW_TRADE_CHATTER_POST</fullName>
+        <categories>Trade</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NEW_TRADE_CHATTER_POST</shortDescription>
+        <value>A new trade has been created with the following data:
+
+Sell Currency: {sell ccy}
+Sell Amount: {sell amount}
+Buy Currency: {buy ccy}
+Buy Amount: {buy amount}
+Rate: {rate}
+Booked Date: {date}
+Link to the trade: {trade link}</value>
+    </labels>
+    <labels>
+        <fullName>RATE</fullName>
+        <categories>Trade</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>RATE</shortDescription>
+        <value>Rate</value>
+    </labels>
+    <labels>
+        <fullName>SAVE</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SAVE</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>SELECTED_OPTIONS</fullName>
+        <categories>Filter,Map</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SELECTED_OPTIONS</shortDescription>
+        <value>Selected options</value>
+    </labels>
+    <labels>
+        <fullName>SELL_AMOUNT</fullName>
+        <categories>Trade</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SELL_AMOUNT</shortDescription>
+        <value>Sell amount</value>
+    </labels>
+    <labels>
+        <fullName>SELL_CCY</fullName>
+        <categories>Trade</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SELL_CCY</shortDescription>
+        <value>Sell CCY</value>
+    </labels>
+    <labels>
+        <fullName>SELL_CURRENCY</fullName>
+        <categories>Trade</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SELL_CURRENCY</shortDescription>
+        <value>Sell currency</value>
+    </labels>
+    <labels>
+        <fullName>TRADE_SAVE_ERROR</fullName>
+        <categories>Trade</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TRADE_SAVE_ERROR</shortDescription>
+        <value>Your trade could not be saved</value>
+    </labels>
+    <labels>
+        <fullName>TRADE_SAVE_SUCCESS</fullName>
+        <categories>Trade</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TRADE_SAVE_SUCCESS</shortDescription>
+        <value>Your trade was registered successfully</value>
+    </labels>
+</CustomLabels>

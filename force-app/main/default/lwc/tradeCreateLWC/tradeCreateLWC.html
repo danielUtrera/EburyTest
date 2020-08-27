@@ -1,0 +1,82 @@
+<!--
+  @description       : 
+  @author            : Daniel Utrera -> daniel.utrera@s4g.es
+  @group             : 
+  @last modified on  : 08-27-2020
+  @last modified by  : Daniel Utrera -> daniel.utrera@s4g.es
+  Modifications Log 
+  Ver   Date         Author                                  Modification
+  1.0   08-27-2020   Daniel Utrera -> daniel.utrera@s4g.es   Initial Version
+-->
+<template>
+    <!--Use template if:true to display/hide popup based on isModalOpen value--> 
+    <template if:true={showModal}>
+        <!-- Modal/Popup Box LWC starts here -->
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <!-- Modal/Popup Box LWC header here -->
+                <header class="slds-modal__header">
+                    <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={closeModal}>
+                        <lightning-icon icon-name="utility:close"
+                            alternative-text="close"
+                            variant="inverse"
+                            size="small" ></lightning-icon>
+                        <span class="slds-assistive-text">Close</span>
+                    </button>
+                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">{NEW_TRADE}</h2>
+                </header>
+                <!-- Modal/Popup Box LWC body starts here -->
+                <div class="slds-modal__content slds-p-around_medium" style="min-height:30%" id="modal-content-id-1">
+                    <lightning-layout multiple-rows=true vertical-align="center">
+                        <lightning-layout-item size="4" padding="around-small">
+                            <lightning-combobox
+                                name="sellCurrencyCode"
+                                label={SELL_CURRENCY}
+                                value={sellCurrencyCodeSelected}
+                                options={sellCurrencyCodes.data.values}
+                                onchange={selectSellCurrencyCode} ></lightning-combobox>
+                        </lightning-layout-item>
+                        <lightning-layout-item size="4"  padding="around-small">
+                            <lightning-layout>
+                                <lightning-layout-item size="2" padding="around-small">
+                                    <lightning-icon icon-name="utility:chevronright" alternative-text=">" title=">" size="small"></lightning-icon>
+                                </lightning-layout-item>
+                                <lightning-layout-item size="8" padding="around-medium">
+                                    <lightning-input type="number" step="0.0001" value={rate}  label={RATE} readonly></lightning-input>
+                                </lightning-layout-item>
+                                <lightning-layout-item size="2" padding="around-small">
+                                    <lightning-icon icon-name="utility:chevronright" alternative-text=">" title=">" size="small"></lightning-icon>
+                                </lightning-layout-item>
+                            </lightning-layout>
+                        </lightning-layout-item>
+                        <lightning-layout-item size="4"  padding="around-small">
+                            <lightning-combobox
+                                name="buyCurrencyCode"
+                                label={BUY_CURRENCY}
+                                value={buyCurrencyCodeSelected}
+                                options={buyCurrencyCodes.data.values}
+                                onchange={selectBuyCurrencyCode} ></lightning-combobox>
+                        </lightning-layout-item>
+
+                        <lightning-layout-item size="4"  padding="around-small">
+                            <lightning-input type="number" step="0.0001" value={sellAmount} label={SELL_AMOUNT} onchange={updateSellAmount}></lightning-input>
+                        </lightning-layout-item>
+
+                        <lightning-layout-item size="4">
+                            
+                        </lightning-layout-item>
+                        <lightning-layout-item size="4"  padding="around-small">
+                            <lightning-input type="number" step="0.0001" value={buyAmount}  label={BUY_AMOUNT} readonly></lightning-input>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </div>
+                <!-- Modal/Popup Box LWC footer starts here -->
+                <footer class="slds-modal__footer">
+                    <button class="slds-button slds-button_neutral" onclick={closeModal} title={CANCEL}>{CANCEL}</button>
+                    <button class="slds-button slds-button_brand" disabled={disallowSave} onclick={saveTrade} title={SAVE}>{SAVE}</button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+ </template>

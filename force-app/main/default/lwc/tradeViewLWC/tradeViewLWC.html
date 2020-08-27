@@ -1,0 +1,24 @@
+<!--
+  @description       : 
+  @author            : Daniel Utrera -> daniel.utrera@s4g.es
+  @group             : 
+  @last modified on  : 08-27-2020
+  @last modified by  : Daniel Utrera -> daniel.utrera@s4g.es
+  Modifications Log 
+  Ver   Date         Author                                  Modification
+  1.0   08-26-2020   Daniel Utrera -> daniel.utrera@s4g.es   Initial Version
+-->
+<template>
+    <div style="height:100%">
+        <lightning-card  variant="Narrow"  title="Booked trades">
+            <lightning-button  variant="brand-outline" label={NEW_TRADE} onclick={newTrade} slot="actions"></lightning-button>
+                <lightning-datatable
+                    key-field="id"
+                    data={tradeRecords.data}
+                    columns={columns}
+                    hide-checkbox-column=true>
+                </lightning-datatable>
+        </lightning-card>
+        <c-trade-create-l-w-c show-modal={showModal} onclosemodal={closeModal}></c-trade-create-l-w-c>
+    </div>
+</template>
