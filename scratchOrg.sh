@@ -52,4 +52,16 @@ fi
 
 echo "🐱  Tests ran successfully."
 
+echo "🐱  Creating Chatter Group."
+
+sfdx force:data:record:create -s CollaborationGroup -v "Name='Trade reviewers' CollaborationType='private'" -u ${ORG_NAME} --json
+
+if [ "$?" = "1" ]
+then
+	echo "🐱  Chatter group creation failed."
+	exit 
+fi	
+
+echo "🐱  Chatter group created successfully."
+
 sfdx force:org:open -u ${ORG_NAME}

@@ -10,12 +10,16 @@
     <label>Trades</label>
     <navType>Console</navType>
     <setupExperience>all</setupExperience>
-    <tabs>Trades</tabs>
+    <tabs>Trade_List</tabs>
+    <tabs>standard-Feed</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trades_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
-            <tab>Trades</tab>
+            <tab>Trade_List</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Feed</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>
