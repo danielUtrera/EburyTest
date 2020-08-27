@@ -155,7 +155,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Trade</label>
     <nameField>
-        <displayFormat>TR{000000000}</displayFormat>
+        <displayFormat>TR{0000000}</displayFormat>
         <label>Id</label>
         <type>AutoNumber</type>
     </nameField>
