@@ -120,6 +120,7 @@ export default class TradeCreateLWC extends LightningElement {
     }
 
     saveTrade(){
+        this.disallowSave=true;
         saveTrade({sellAmount:this.sellAmount,sellCurrencyCode: this.sellCurrencyCodeSelected,buyCurrencyCode:this.buyCurrencyCodeSelected})
         .then(data => {
             this.closeModalEvent(true);

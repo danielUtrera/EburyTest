@@ -1,29 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
-        <fullName>ADDRESS_FIELD</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>ADDRESS_FIELD</shortDescription>
-        <value>Address field</value>
-    </labels>
-    <labels>
-        <fullName>ADDRESS_FIELD_PLACEHOLDER</fullName>
-        <categories>Filter;Map</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>ADDRESS_FIELD_PLACEHOLDER</shortDescription>
-        <value>Select the address to filter</value>
-    </labels>
-    <labels>
-        <fullName>AVAILABLE_OPTIONS</fullName>
-        <categories>Filter,Map</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>AVAILABLE_OPTIONS</shortDescription>
-        <value>Available options</value>
-    </labels>
-    <labels>
         <fullName>BOOKED_TRADES</fullName>
         <categories>Trade</categories>
         <language>en_US</language>
@@ -62,14 +39,7 @@
         <shortDescription>CANCEL</shortDescription>
         <value>Cancel</value>
     </labels>
-    <labels>
-        <fullName>CURRENT_FILTERS</fullName>
-        <categories>Filter,Map</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>CURRENT_FILTERS</shortDescription>
-        <value>Current filters</value>
-    </labels>
+
     <labels>
         <fullName>DATE_BOOKED</fullName>
         <categories>Trade</categories>
@@ -79,50 +49,11 @@
         <value>Date booked</value>
     </labels>
     <labels>
-        <fullName>DISTANCE</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>DISTANCE</shortDescription>
-        <value>Distance in KM</value>
-    </labels>
-    <labels>
-        <fullName>FILTER</fullName>
-        <categories>Filter,Map</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>FILTER</shortDescription>
-        <value>Filter</value>
-    </labels>
-    <labels>
-        <fullName>FILTER_PLACEHOLDER</fullName>
-        <categories>Filter,Map</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>FILTER_PLACEHOLDER</shortDescription>
-        <value>Select the field to filter</value>
-    </labels>
-    <labels>
         <fullName>GENERIC_ERROR</fullName>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>GENERIC_ERROR</shortDescription>
         <value>Try again later and contact your admin if the error persists</value>
-    </labels>
-    <labels>
-        <fullName>MAX_VALUE</fullName>
-        <categories>Filter;Map</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>MAX_VALUE</shortDescription>
-        <value>Maximum</value>
-    </labels>
-    <labels>
-        <fullName>MIN_VALUE</fullName>
-        <categories>Filter;Map</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>MIN_VALUE</shortDescription>
-        <value>Minimum</value>
     </labels>
     <labels>
         <fullName>NEW_TRADE</fullName>
@@ -162,14 +93,6 @@ Link to the trade: {trade link}</value>
         <protected>true</protected>
         <shortDescription>SAVE</shortDescription>
         <value>Save</value>
-    </labels>
-    <labels>
-        <fullName>SELECTED_OPTIONS</fullName>
-        <categories>Filter,Map</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>SELECTED_OPTIONS</shortDescription>
-        <value>Selected options</value>
     </labels>
     <labels>
         <fullName>SELL_AMOUNT</fullName>
