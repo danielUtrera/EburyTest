@@ -42,7 +42,7 @@ export default class TradeCreateLWC extends LightningElement {
 
     sellCurrencyCodeSelected;
     buyCurrencyCodeSelected;
-    rate=1.0000;
+    rate=0.0000;
     buyAmount=0.0000;
     sellAmount;
 
@@ -105,7 +105,7 @@ export default class TradeCreateLWC extends LightningElement {
         })
         .catch(error =>{
             console.log(JSON.stringify(error));
-            this.rate=1.0000;
+            this.rate=0.0000;
             this.buyAmount=0.0000;
         });
     }
